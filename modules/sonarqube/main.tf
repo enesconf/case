@@ -3,7 +3,7 @@ resource "helm_release" "sonarqube" {
   repository = "https://charts.bitnami.com/bitnami"  
   chart      = "sonarqube"
   version    = "6.0.0"  
-  timeout = 600
+  timeout = 700
 
   # Disable the internal PostgreSQL
   set {

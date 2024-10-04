@@ -7,7 +7,7 @@ terraform init
 
 
 echo "loading..."
-terraform apply -auto-approve > /dev/null 2>&1
+terraform apply -auto-approve
 
 echo "Terraform apply completed."
 
